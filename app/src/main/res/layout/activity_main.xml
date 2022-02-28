@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Who's The Winner?"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/spinnerImage"
+        android:layout_width="216dp"
+        android:layout_height="206dp"
+        android:layout_centerInParent="true"
+        android:onClick="spinPointer"
+        android:src="@drawable/pool_cue" />
+
+    <ImageButton
+        android:id="@+id/btnBall5"
+        android:layout_width="53dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="335dp"
+        android:backgroundTint="#2D8BC34A"
+        android:contentDescription="Selection Five"
+        app:srcCompat="@drawable/ballthree" />
+
+    <ImageButton
+        android:id="@+id/btnBall1"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection One"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Two"
+        android:onClick="postPic((bpic1)"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall3"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Three"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Four"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall6"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="325dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Six"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall7"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Seven"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall8"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Eight"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall9"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Nine"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall13"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Thirteen"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall12"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Twelve"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall11"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Eleven"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall10"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Ten"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall16"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Sixteen"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall15"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Fifteen"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageButton
+        android:id="@+id/btnBall14"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="0px"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="Selection Fourteen"
+        app:srcCompat="@drawable/ballone" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
